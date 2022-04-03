@@ -1,0 +1,5 @@
+const TYPES_SIDE_DRAWER={
+    POST:1,
+    PROFILE:2,
+}
+export {TYPES_SIDE_DRAWER}

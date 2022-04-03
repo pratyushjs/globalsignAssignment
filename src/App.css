@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+.Main__Right__Col {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 50px;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Table__Container {
+  
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#chakra-modal--body-rightDrawer {
+  /* right: 50px !important; */
+  display: flex;
+  flex-direction: row;
+  padding: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link {
+  color: rgb(47, 97, 205);
+  cursor: pointer;
+
+}
+
+.IndividualPost {
+  background-color: #f5f5f5;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  height: fit-content;
+  position: relative;
+}
+
+.IndividualPost__Card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 7px solid #f5f5f5;
+}
+
+.IndividualPost__Card__title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.IndividualPost__UserDetails {
+  display: flex;
+}
+
+.IndividualPost__UserDetails__Avatar {
+  display: flex;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 15px;
+  background-color: beige;
 }
 
-.App-link {
-  color: #61dafb;
+.IndividualPost__UserDetails__Username {
+  margin-left: 10px;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* profile */
+.IndividualProfile {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  height: fit-content;
+  position: relative;
+}
+
+.IndividualProfile__Header__Title {
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+
+.IndividualProfile__Header__Title h3 {
+  font-weight: bold;
+}
+
+.IndividualProfile__Card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.IndividualProfile__Card__title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.IndividualProfile__UserDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.IndividualProfile__UserDetails__Avatar {
+  display: flex;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background-color: beige;
+}
+
+.IndividualProfile__UserDetails__Username {
+
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.IndividualProfile__UserDetails__Name {
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+}
+
+.RightPanel {
+  padding: 10px;
+  position: sticky;
+    top: 0;
+}
+
+.RightPanel__item {
+  cursor: pointer;
+}
+
+.IndividualPost__Header {
+  background: #f5f5f5;
+  padding: 20px 15px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+}
+.IndividualPost__Header__Details{
+
+}
+.IndividualPost__Header__Close{
+  display: flex;
+  align-items: center;
+}
+.IndividualPost__Header h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.IndividualProfile__Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: white;
 }
